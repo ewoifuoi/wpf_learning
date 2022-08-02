@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Chiyodamomo_info_waifu2x_1500x1500_png.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Chiyodamomo_info_waifu2x_1500x1500_png.png" />
+  </ItemGroup>
+
+</Project>
