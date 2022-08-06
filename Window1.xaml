@@ -4,10 +4,19 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpf_learning"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="800">
+    <Window.Resources>
+        <sys:String x:Key="myString">Hello WPF!</sys:String>
+    </Window.Resources>
     <Grid>
         <Image HorizontalAlignment="Left" Height="301" Margin="63,0,0,0" VerticalAlignment="Center" Width="255" Source="/Chiyodamomo_info_waifu2x_1500x1500_png.png"/>
+        <StackPanel HorizontalAlignment="Left" Height="213" Margin="419,0,0,0" VerticalAlignment="Center" Width="194" Background="#FFABBED3" Opacity="0.5">
+            <TextBox Text="{StaticResource ResourceKey=myString}" Margin="5" Padding="20"/>
+            <TextBox x:Name="textBox1" Margin="5" Padding="20"/>
+            <Button Content="Show" Click="Button_Click" Margin="5" Padding="20"/>
+        </StackPanel>
 
     </Grid>
 </Window>

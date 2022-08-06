@@ -23,5 +23,11 @@ namespace wpf_learning
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            string str = FindResource("myString") as string;
+            this.textBox1.Text = str;
+        }
     }
 }
