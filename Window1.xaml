@@ -11,8 +11,8 @@
         <sys:String x:Key="myString">Hello WPF!</sys:String>
     </Window.Resources>
     <Grid>
-        <Image HorizontalAlignment="Left" Height="301" Margin="63,0,0,0" VerticalAlignment="Center" Width="255" Source="/Chiyodamomo_info_waifu2x_1500x1500_png.png"/>
-        <StackPanel HorizontalAlignment="Left" Height="213" Margin="419,0,0,0" VerticalAlignment="Center" Width="194" Background="#FFABBED3" Opacity="0.5">
+        <Image HorizontalAlignment="Left" Height="359" Margin="126,0,0,0" VerticalAlignment="Center" Width="302" Source="/Chiyodamomo_info_waifu2x_1500x1500_png.png"/>
+        <StackPanel HorizontalAlignment="Left" Height="213" Margin="425,0,0,0" VerticalAlignment="Center" Width="194" Background="#FFABBED3" Opacity="0.5">
             <TextBox Text="{StaticResource ResourceKey=myString}" Margin="5" Padding="20"/>
             <TextBox x:Name="textBox1" Margin="5" Padding="20"/>
             <Button Content="Show" Click="Button_Click" Margin="5" Padding="20"/>

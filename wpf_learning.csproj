@@ -8,7 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Chiyodamomo_info_waifu2x_1500x1500_png.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="AssemblyInfo.cs" />
   </ItemGroup>
 
   <ItemGroup>
