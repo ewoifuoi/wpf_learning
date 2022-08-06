@@ -35,5 +35,11 @@ namespace wpf_learning
             var t = new Window1();
             t.Show();
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            var t = new email();
+            t.ShowDialog();
+        }
     }
 }

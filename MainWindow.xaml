@@ -5,9 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpf_learning"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Background="White" ShowInTaskbar="False" ResizeMode="NoResize">
     <Grid>
         <Button Content="" HorizontalAlignment="Left" Height="91" Margin="89,0,0,0" VerticalAlignment="Center" Width="91" Background="#7FBDAD39" Click="Button_Click"/>
         <Button Content="打开第二个窗口" HorizontalAlignment="Center" Height="91" VerticalAlignment="Center" Width="340" FontSize="24" Click="Button_Click_1"/>
+        <Button Content="留言板" HorizontalAlignment="Left" Height="60" Margin="600,306,0,0" VerticalAlignment="Top" Width="120" FontSize="20" Background="#FFBFECE4" Click="Button_Click_2"/>
     </Grid>
 </Window>
