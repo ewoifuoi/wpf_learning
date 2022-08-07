@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpf_learning"
         mc:Ignorable="d"
-        Title="email" Height="318" Width="476" ResizeMode="NoResize">
+        Title="email" Height="318" Width="476" ResizeMode="CanResizeWithGrip">
     <Grid Margin="10">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
